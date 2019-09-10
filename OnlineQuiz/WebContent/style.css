@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+body {
+font-family: 'Titillium Web', sans-serif;
+ color: white;
+background: linear-gradient(to left, #ffc3a0, #fff ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+}
+img {
+ height: 300px;
+}
+.cardholder {
+  margin-top: 150px;
+          perspective: 600px;
+}
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+          transform: rotateY(50deg);
+  box-shadow: -6px 5px 13px 2px rgba(0, 0, 0, 0.25);
+ transition: all 1s ease;
+  color: transparent;
+}
+.card:hover {
+  width: 300px;
+  height: 200px;
+  background-color: transparent;
+          transform: rotateY(0deg);
+  box-shadow: 0px 0px 36px 2px rgba(0, 0, 0, 0.25);
+  color: black;
+}
+.card:hover p {
+  background-color: white;
+}
+div
+{
+	float:center;
+}
+div a img{
+	height:200px;
+	width:200px;
+}
+p.desc {
+  z-index:999;
+  position: absolute;
+  top: 10px;
+  padding: 10px;
+}
+p.desc:hover {
+}
+body {
+  background: #34495e;
+  font: normal 300 18px "Roboto", sans-serif;
+}
+ 
+#menu-nav {
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+ 
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar li {
+  float: left;
+  width: 20%;
+}
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #e74c3c;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #e74c3c;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+ 
+li {
+ list-style: none;
+}
+divider{
+ padding:50px;
+ 
+ height: 2px;
+}
+div input{
+    background-image: url('c.jpg');
+}
